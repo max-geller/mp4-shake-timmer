@@ -1,2 +1,7 @@
-# mp4-shake-timmer
-Tool for automating the process of trimming video based on camera shake activity.  For drone videographers.
+# MP4 Shake Trimmer
+
+Automated aerial/drone footage trimmer using Angular and Electron.
+
+## Development server
+
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
