@@ -10,6 +10,9 @@ import { SessionsModule } from './sessions/sessions.module';
 import { HomeComponent } from './pages/home/home.component';
 import { ImportComponent } from './pages/import/import.component';
 import { TrimComponent } from './pages/trim/trim.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { MaterialModule } from './shared/vendors/material/material.module';
+import { FlexLayoutModule } from '@angular/flex-layout';
 
 @NgModule({
   declarations: [
@@ -22,10 +25,12 @@ import { TrimComponent } from './pages/trim/trim.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    SharedModule,
     RouterModule,
     CoreModule,
     SessionsModule,
+    MaterialModule,
+    FlexLayoutModule,
+    BrowserAnimationsModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
