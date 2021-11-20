@@ -16,6 +16,7 @@ import { FlexLayoutModule } from '@angular/flex-layout';
 import { NavbarComponent } from './shared/components/navbar/navbar.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { SettingsComponent } from './pages/settings/settings.component';
+import { StatusComponent } from './pages/status/status.component';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { SettingsComponent } from './pages/settings/settings.component';
     TrimComponent,
     NavbarComponent,
     FooterComponent,
-    SettingsComponent
+    SettingsComponent,
+    StatusComponent
 
   ],
   imports: [

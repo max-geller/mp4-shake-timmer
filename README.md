@@ -1,6 +1,6 @@
 # MP4 Shake Trimmer
 
-Automated aerial/drone footage trimmer using Angular and Electron.
+Automated aerial/drone footage trimmer using Angular, Electron, FFmpeg, and WebAssembly.
 
 ## Development server
 

@@ -2,6 +2,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ImportComponent } from './pages/import/import.component';
+import { StatusComponent } from './pages/status/status.component';
 import { TrimComponent } from './pages/trim/trim.component';
 import { SettingsComponent } from './sessions/pages/settings/settings.component';
 
@@ -26,6 +27,10 @@ const routes: Routes = [
   {
     path: 'settings',
     component: SettingsComponent
+  },
+  {
+    path: 'status',
+    component: StatusComponent
   }
 ];
 
