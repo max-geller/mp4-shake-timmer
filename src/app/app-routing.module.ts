@@ -3,6 +3,7 @@ import { RouterModule, Routes } from '@angular/router';
 import { HomeComponent } from './pages/home/home.component';
 import { ImportComponent } from './pages/import/import.component';
 import { TrimComponent } from './pages/trim/trim.component';
+import { SettingsComponent } from './sessions/pages/settings/settings.component';
 
 const routes: Routes = [
   {
@@ -21,6 +22,10 @@ const routes: Routes = [
   {
     path: 'trim',
     component: TrimComponent
+  },
+  {
+    path: 'settings',
+    component: SettingsComponent
   }
 ];
 

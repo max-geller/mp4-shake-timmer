@@ -1,5 +1,25 @@
-<div style="height: 50%; border-style: solid">Preview</div>
-<mat-slider style="width: 80vw"></mat-slider>
-<div style="height: 20vh">
-  <h5>Graph of Shake Activity</h5>
-</div>
+<mat-drawer-container class="example-container" autosize style="min-height: 80vh">
+  <mat-drawer #drawer class="example-sidenav" mode="side">
+here's something
+  </mat-drawer>
+
+  <div class="example-sidenav-content">
+    <button type="button" mat-button (click)="drawer.toggle()">
+      Toggle sidenav
+    </button>
+    <div style="height: 50%; border-style: solid; background-color: grey"></div>
+    <div style="text-align: center;">
+      <mat-slider style="width: 80vw"></mat-slider>
+      <div style="height: 10vh;background-color: rgb(240, 172, 172);">
+        <h5>Graph of Shake Activity</h5>
+      </div>
+    </div>
+    <button routerLink="/export">Hey, I'm a button</button>
+  </div>
+
+</mat-drawer-container>
+
+
+
+
+

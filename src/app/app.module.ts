@@ -13,6 +13,9 @@ import { TrimComponent } from './pages/trim/trim.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { MaterialModule } from './shared/vendors/material/material.module';
 import { FlexLayoutModule } from '@angular/flex-layout';
+import { NavbarComponent } from './shared/components/navbar/navbar.component';
+import { FooterComponent } from './shared/components/footer/footer.component';
+import { SettingsComponent } from './pages/settings/settings.component';
 
 @NgModule({
   declarations: [
@@ -20,6 +23,9 @@ import { FlexLayoutModule } from '@angular/flex-layout';
     HomeComponent,
     ImportComponent,
     TrimComponent,
+    NavbarComponent,
+    FooterComponent,
+    SettingsComponent
 
   ],
   imports: [
