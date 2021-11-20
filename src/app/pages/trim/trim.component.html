@@ -1,25 +1,30 @@
-<mat-drawer-container class="example-container" autosize style="min-height: 80vh">
+<mat-drawer-container
+  class="example-container"
+  autosize
+  style="min-height: 80vh"
+>
   <mat-drawer #drawer class="example-sidenav" mode="side">
-here's something
+    <h4>DJI_1238184_723j_001</h4>
   </mat-drawer>
 
   <div class="example-sidenav-content">
-    <button mat-stroked-button type="button" mat-button (click)="drawer.toggle()">
-      Toggle sidenav
+    <button
+      mat-stroked-button
+      type="button"
+      mat-button
+      (click)="drawer.toggle()"
+    >
+      Open Videos
     </button>
-    <div style="height: 50vh; border-style: solid; background-color: grey"></div>
-    <div style="text-align: center;">
+    <div
+      style="height: 50vh; border-style: solid; background-color: grey"
+    ></div>
+    <div style="text-align: center">
       <mat-slider style="width: 80vw"></mat-slider>
-      <div style="height: 10vh;background-color: rgb(102, 102, 102);">
+      <div style="height: 10vh; background-color: rgb(102, 102, 102)">
         <h5>Graph of Shake Activity</h5>
       </div>
     </div>
     <button routerLink="/status">Start</button>
   </div>
-
 </mat-drawer-container>
-
-
-
-
-
